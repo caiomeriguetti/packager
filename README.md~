@@ -1,12 +1,11 @@
 packager
 =========
 
+Easier way to emulate packages with mootools. 
+
+In the example above, two classes are defined to illustrate the use:
 
 ````javascript
-
-easier way to emulate packages with mootools
-
-
 define_class('mypack.User',function(){
 	this.initialize=function(){
 		
