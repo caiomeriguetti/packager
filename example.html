@@ -44,7 +44,7 @@ define_class('mypack.Admin',function(){
 });
 
 
-var user = new mypack.User();
+var user = new mypack.subpack1.subpack2.User();
 var admin = new mypack.Admin();
 console.log(user.sayHi());
 console.log(admin.sayHi());
