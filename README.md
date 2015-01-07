@@ -3,7 +3,7 @@ packager
 
 Easier way to emulate packages with mootools. 
 
-In the example above, two classes are defined to illustrate the use:
+In the following example, two classes are defined to illustrate the use:
 
 ````javascript
 define_class('mypack.User',function(){
