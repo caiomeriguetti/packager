@@ -7,7 +7,7 @@
 
 <script>
 
-define_class('mypack.User',function(){
+define_class('mypack.subpack1.subpack2.User',function(){
 
 
 
@@ -27,7 +27,7 @@ define_class('mypack.User',function(){
 
 define_class('mypack.Admin',function(){
 
-	this.Extends=mypack.User;
+	this.Extends=mypack.subpack1.subpack2.User;
 
 	this.initialize=function(){
 		this.parent();
